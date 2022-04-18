@@ -28,7 +28,9 @@ RUN         asadmin create-domain --user admin --passwordfile ${DEFAULT_PASSWORD
 #           url jdk https://cdn.azul.com/zulu/bin/zulu7.52.0.11-ca-jdk7.0.332-linux_x64.tar.gz
 #           url gf4 http://download.oracle.com/glassfish/4.1/release/glassfish-4.1.zip
 #
-#           parche nucleus-grizzly-all http.
+#           instalar parche nucleus-grizzly-all.jar para https.
+#             -- reemplazar ${glassfishHome}/glassfish/modules/nucleus-grizzly-all.jar
+#             -- eliminar ${glassfishHome}/glassfish/domains/spidesa/osgi-cache/osgi-cache.
 #           creacion de password aliases.
 #           creacion de recursos jndi, jdbc, mail.
 #           tunning jvm, thread pool, jdbc connection pool.
